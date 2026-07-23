@@ -1,0 +1,44 @@
+{
+  "duel_id": "c03fb21d-0ffc-410e-a247-6137b32c9b4b",
+  "format": "voice",
+  "tool_a": "murf",
+  "tool_b": "elevenlabs",
+  "prompt": "In 1992, roughly 5,984 developers benchmarked their GPU clusters against a single API endpoint. The results were read aloud at 8 a.m., and 73.8 percent of the audience thought the lead was unassailable. Dr. Nguyen disagreed: \"A live demo either wins the crowd, or it doesn't.\" Her colleagues from Zurich, Osaka and Sao Paulo repeated the test with identical parameters.",
+  "scores": {
+    "murf": 9.6875,
+    "elevenlabs": 9.6875
+  },
+  "outcome": "draw",
+  "winner_side": null,
+  "confidence": 1,
+  "wer": {
+    "murf": {
+      "whisper": "In 1992, roughly 5,984 developers benchmarked their GPU clusters against a single API endpoint. The results were read aloud at 8 a.m., and 73.8% of the audience thought the lead was unassailable. Dr. Ongwane disagreed. A live demo either wins the crowd, or it doesn't. Her colleagues from Zurich, Osaka, and Sao Paulo repeated the test with identical parameters.",
+      "deepgram": null,
+      "werWhisper": 0.03125,
+      "werDeepgram": null,
+      "werAvg": 0.03125
+    },
+    "elevenlabs": {
+      "whisper": "In 1992, roughly 5,184 developers benchmarked their GPU clusters against a single API endpoint. The results were read aloud at 8 a.m., and 73.8% of the audience thought the lead was unassailable. Dr. Nguyen disagreed. A live demo either wins the crowd or it doesn't. Her colleagues from Zurich, Osaka, and Sao Paulo repeated the test with identical parameters.",
+      "deepgram": null,
+      "werWhisper": 0.03125,
+      "werDeepgram": null,
+      "werAvg": 0.03125
+    }
+  },
+  "latency_ms": {
+    "murf": 9306,
+    "elevenlabs": 4163
+  },
+  "cost_eur_est": {
+    "murf": 0.01107,
+    "elevenlabs": 0.055349999999999996
+  },
+  "audio": {
+    "murf": "https://raw.githubusercontent.com/duelbench-data/duelbench-data/main/assets/voice/c03fb21d-0ffc-410e-a247-6137b32c9b4b-murf.mp3",
+    "elevenlabs": "https://raw.githubusercontent.com/duelbench-data/duelbench-data/main/assets/voice/c03fb21d-0ffc-410e-a247-6137b32c9b4b-elevenlabs.mp3"
+  },
+  "method": "TTS → STT (Whisper) → word error rate; lower avg WER wins; draw margin 0.015",
+  "created_at": "2026-07-23T07:09:53.438Z"
+}
