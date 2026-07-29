@@ -1,0 +1,44 @@
+{
+  "duel_id": "115c38b3-4e12-466b-992a-5a357281e761",
+  "format": "voice",
+  "tool_a": "murf",
+  "tool_b": "elevenlabs",
+  "prompt": "In 2004, roughly 7,879 developers benchmarked their GPU clusters against one API endpoint. Dr. Nguyen read the results aloud at 8 a.m. — and 63.5 percent of the crowd in Zurich was stunned.",
+  "scores": {
+    "murf": 8.571428571428573,
+    "elevenlabs": 9.142857142857142
+  },
+  "outcome": "scored",
+  "winner_side": "B",
+  "confidence": 0.9428571428571428,
+  "wer": {
+    "murf": {
+      "whisper": "In 2004, roughly 7,879 developers benchmarked their GPU clusters against one API endpoint. Dr. Ongwane read the results aloud at 8am, and 63.5% of the crowd in Zurich was stunned.",
+      "deepgram": null,
+      "werWhisper": 0.14285714285714285,
+      "werDeepgram": null,
+      "werAvg": 0.14285714285714285
+    },
+    "elevenlabs": {
+      "whisper": "In 2004, roughly 7,170 NASI developers benchmarked their GPU clusters against one API endpoint. Dr. Nguyen read the results aloud at 8 a.m. And 63.5% of the crowd in Zurich was stunned.",
+      "deepgram": null,
+      "werWhisper": 0.08571428571428572,
+      "werDeepgram": null,
+      "werAvg": 0.08571428571428572
+    }
+  },
+  "latency_ms": {
+    "murf": 5263,
+    "elevenlabs": 2583
+  },
+  "cost_eur_est": {
+    "murf": 0.00567,
+    "elevenlabs": 0.02835
+  },
+  "audio": {
+    "murf": "https://raw.githubusercontent.com/duelbench-data/duelbench-data/main/assets/voice/115c38b3-4e12-466b-992a-5a357281e761-murf.mp3",
+    "elevenlabs": "https://raw.githubusercontent.com/duelbench-data/duelbench-data/main/assets/voice/115c38b3-4e12-466b-992a-5a357281e761-elevenlabs.mp3"
+  },
+  "method": "TTS → STT (Whisper) → word error rate; lower avg WER wins; draw margin 0.015",
+  "created_at": "2026-07-29T16:39:19.090Z"
+}
